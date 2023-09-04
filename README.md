@@ -6,3 +6,5 @@ and their eventual placement outcomes. The objective is to extract valuable insi
 factors influencing placement success and develop strategies for improving the placement process by identifying 
 patterns and trends in campus placement data using machine learning techniques.
 
+Video link:https://drive.google.com/file/d/1TzWz7dbDFrA1rqjyzga7tX7mQhV1Snas/view?usp=sharing
+
