@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0; /* Remove default margin to fill the entire viewport */
+    padding: 0; /* Remove default padding */
+    background-image: url('https://wallpaperaccess.com/full/3959308.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Adjust the brightness of the background image */
+.background-image {
+    filter: brightness(30%); /* You can adjust the percentage value as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 100px; /* Add margin to move the boxes down */
+}
+
+.placed, .not-placed {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
