@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../static/css/style.css">
+       <script src="C:\Users\Varshini\PycharmProjects\untitled\app\static\js\main.js"></script>
+    <title>Registration Form</title>
+    <script src="../../static/js/main.js"></script>
+
+  </head>
+  <body>
+    <form action="#" method="POST" class="form">
+      <h1 class="text-center">Registration Form</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        <div class="progress-step progress-step-active">
+        </div>
+        <div class="progress-step" ></div>
+        <div class="progress-step" ></div>
+        <div class="progress-step" ></div>
+        <div class="progress-step" ></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="Firstname">First Name</label>
+          <input type="text" name="username" id="Firstname" />
+        </div>
+        <div class="input-group">
+          <label for="Lastname">Last Name</label>
+          <input type="text" name="username" id="Lastname" />
+        </div>
+        <div class="input-group">
+          <label for="Email">Email</label>
+          <input type="text" name="email" id="Email" />
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="input-group">
+          <label for="gender">Gender</label>
+          <select name="ssc_b" id="gender">
+<option value="Select One">Select One</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+      <option value="others">Others</option>
+</select>
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+
+<label for="ssc_b"> SSC Board: </label>
+       <select name="ssc_b" id="ssc_b">
+<option value="Select One">Select One</option>
+  <option value="central">central</option>
+  <option value="others">others</option>
+</select>
+        </div>
+        <div class="input-group">
+          <label for="ssc-p"> SSC Percentage(%):  </label>
+          <input type="number" name="ssc_p" id="ssc-p" placeholder="Enter Your SSC percentage">
+        </div>
+        <div class="input-group">
+          <label for="hsc_b"> Intermediate Board: </label>
+<select name="hsc_b" id="hsc_b">
+<option value="Select One">Select One</option>
+  <option value="central">central</option>
+  <option value="others">others</option>
+</select>
+        </div>
+        <div class="input-group">
+         <label for="in-p"> Intermediate(12th) Percentage(%):  </label>
+            <input type="number" name="hsc_p" id="in-p" placeholder="Enter Your 12th percentage">
+        </div>
+        <div class="input-group">
+          <label for="hsc_s"> Intermediate Branch: </label>
+<select name="hsc_s" id= "hsc_s">
+<option value="Select One">Select One</option>
+  <option value="commerce">Commerce</option>
+  <option value="Science">Science</option>
+<option value="Arts">Arts</option>
+</select>
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+       <div class="form-step">
+        <div class="input-group">
+          <label for="de-p">Degree Percentage: </label>
+          <input type="number" name="dedree_p" id="de-p" placeholder="Enter Your Degree(B.Tech) Percentage">
+        </div>
+        <div class="input-group">
+          <label for="degree_t"> Degree Branch: </label>
+<select name="degree_t" id="degree_t">
+<option value="Select One">Select One</option>
+  <option value="Sci&Tech">Sci&Tech</option>
+  <option value="Comm&Mgmt">Comm&Mgmt</option>
+<option value="others">Others</option>
+</select>
+        </div>
+        <div class="input-group">
+          <label for="clg"> College Name:  </label>
+          <input type="text" name="clg_n" id="clg" placeholder="Enter Your College Name">
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="test"> Have you written any Employability test?? </label>
+          <select name="e_test" id="test">
+<option value="Select One">Select One</option>
+  <option value="yes">Yes</option>
+  <option value="No">No</option>
+</select>
+        </div>
+        <div class="input-group">
+          <label for="e-t"> Employability Percentage: </label>
+          <input type="number" name="etest_p" id="e-t" placeholder="Enter your test percentage">
+        </div>
+        <div class="input-group">
+
+<label for="spec"> Specialization: </label>
+<select name="spec" id="spec">
+<option value="Select One">Select One</option>
+  <option value="Mkt&HR">Mkt&HR</option>
+  <option value="Mkt&Fin">Mkt&Fin</option>
+</select>
+        </div>
+        <div class="input-group">
+         <label for="sp"> Specialisation Percentage: </label>
+          <input type="number" name="mba_p" id="sp" placeholder="Enter your specialisation percentage">
+        </div>
+        <div class="input-group">
+          <label for="intern"> Have you done any Internships?? </label>
+          <select name="spec" id="intern">
+<option value="Select One">Select One</option>
+  <option value="yes">Yes</option>
+  <option value="No">No</option>
+</select>
+        </div>
+        <div class="input-group">
+        <label for="noi"> Number of Internships </label>
+            <input type="number" name="Internships" id="noi" placeholder="Enter no.of internships you have done">
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <input type="submit" value="Submit" class="btn" />
+        </div>
+      </div>
+    </form>
+
+  </body>
+</html>
